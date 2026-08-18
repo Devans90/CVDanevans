@@ -47,7 +47,7 @@ I bridge technical and non-technical disciplines to achieve shared goals, combin
 
 ## <span style="color:#003366;">*Computer Vision Contributions*</span>
 - **User-Centric Metrics**: Developed unique, user-specific performance metrics combining logarithmic regression and precise custom analysis to evaluate abstract concepts such as "good style."
-- **Innovative Prototyping**: Designed and implemented a **smart mirror prototype** during a two-week innovation hackathon, integrating voice assistant features with gesture control, real-time augmentation, and facial analysis capabilities.
+- **Innovative Prototyping**: Comfortable leading rapid, self-directed innovation sprints that produce tangible outcomes. A standout example was designing and implementing a **smart mirror prototype** in a two-week hackathon, integrating a full-pipeline LLM agent with gesture control, real-time image augmentation, and facial analysis capabilities.
 - **Skin Analysis Techniques**: Applied advanced deep learning techniques to analyze facial characteristics, including detailed evaluation of skin features such as pores and blemishes, to support product development insights.
 - **Style Recommendation Systems**: Conducted exploratory research on image style transfer using latent space representations in diffusion models, leveraging multi-dimensional clustering to enhance style-based recommendations.
 
@@ -55,7 +55,7 @@ I bridge technical and non-technical disciplines to achieve shared goals, combin
 ## <span style="color:#003366;">Achievements</span>
 - **Dyson Corrale Performance Metrics**: Lead engineer and registered inventor of novel lab-based performance metrics for the award-winning Dyson Corrale.  
 - **Chartered Engineer (IMechE)**: Fully chartered with the Institution of Mechanical Engineers (Member ID: 80415022).  
-- **Patent Contributions**: Inventor of multiple patented technologies advancing consumer product innovation.  [GB2608157, GB2608157B]
+- **Patented innovations**: Inventor of multiple (4+) patented (and pending) technologies advancing consumer product innovation, and AR technoigies.  [GB2608157, GB2608157B]
 - **Global Experience**: Demonstrated ability to work internationally, represent the business in media, and travel independently.
 
 ---
@@ -76,13 +76,14 @@ I bridge technical and non-technical disciplines to achieve shared goals, combin
 
 ## <span style="color:#003366;">Professional Experience</span>
 
-### <span style="color:#008080;">Lead Data Scientist – Dyson (2022 – Present)</span>
+### <span style="color:#008080;">Lead Machine Learning Engineer – Dyson (2022 – Present)</span>
 - Oversight and innovation of data-driven R&D projects, ensuring innovative, robust data and ML solutions.  
 - Spearhead the development of robust data-driven consumer performance metrics.  
 - Collaborate with multi-diciplinary teams (embedded, app and design) to rapidly prototype and deploy innovative ideas.
+- Driven real ML solutions into real innovative, and patented user facing products (AR and mediapipe).
 
 ### <span style="color:#008080;">Senior Research Scientist Manager, Image Analysis – Dyson (June 2021 – 2022)</span>
-- Led a team specializing in machine vision, ML, and deep learning applications.  
+- Led a team specializing in machine vision, ML, and custom LLM agentic solutions.  
 - Created novel user-focused performance metrics to accelerate design decisions.  
 - Balanced project timelines with research exploration to maintain cutting-edge results.
 
