@@ -1,0 +1,142 @@
+:root {
+  --bg: #f5f1e8;
+  --paper: #fffdf8;
+  --ink: #1f2a33;
+  --muted: #4e5f6b;
+  --accent: #9f2d2d;
+  --accent-soft: #d8b8a1;
+  --line: #ded6c8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: radial-gradient(circle at 15% 10%, #f9ece2 0%, var(--bg) 45%, #e7e2d7 100%);
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1.55;
+}
+
+.page-bg {
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, rgba(159, 45, 45, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(159, 45, 45, 0.03) 1px, transparent 1px);
+  background-size: 36px 36px;
+  pointer-events: none;
+}
+
+.cv-wrapper {
+  max-width: 940px;
+  margin: 40px auto;
+  padding: 32px clamp(18px, 4vw, 44px) 40px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  box-shadow: 0 14px 40px rgba(31, 42, 51, 0.14);
+  position: relative;
+}
+
+.hero {
+  border-bottom: 2px solid var(--line);
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+}
+
+.kicker {
+  margin: 0;
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 8px 0 10px;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+}
+
+h2 {
+  margin: 28px 0 10px;
+  font-size: 1.45rem;
+  border-left: 4px solid var(--accent);
+  padding-left: 10px;
+}
+
+h3 {
+  margin: 0 0 8px;
+  font-size: 1.08rem;
+}
+
+p,
+li {
+  color: var(--muted);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px 18px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.columns article,
+.timeline article {
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, #fff, #fffaf2);
+  padding: 14px;
+}
+
+.timeline {
+  display: grid;
+  gap: 12px;
+}
+
+.meta {
+  color: var(--accent);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+ul {
+  margin: 10px 0 0 18px;
+  padding: 0;
+}
+
+@media (max-width: 740px) {
+  .cv-wrapper {
+    margin: 0;
+    min-height: 100vh;
+    border: none;
+    box-shadow: none;
+  }
+
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}
