@@ -43,6 +43,13 @@ I bridge technical and non-technical disciplines to achieve shared goals, combin
 - Aligned data-focused initiatives with broader organizational objectives.  
 - Fostered innovation through hackathons, community engagement, and collaborative challenges.
 
+### <span style="color:#008080;">Other</span>
+- Built and ran a motion-capture setup for AR and sensor validation.  
+- Setup and ran SEM hair analysis in a Korean beauty pop-up setting.  
+- Expert in food texture analysis (Stable Micro Systems).  
+- Qualified UR5 robot arm programmer; ask me about the time I built a robotic chess partner.  
+- Comfortable building custom rigs and prototypes in research settings, where the goal is often less “clean automation” and more “make this actually work and keep learning.”
+
 ---
 
 ## <span style="color:#003366;">*Computer Vision Contributions*</span>
